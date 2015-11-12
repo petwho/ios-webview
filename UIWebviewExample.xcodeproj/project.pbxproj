@@ -14,6 +14,7 @@
 		766095C91BF4748A00A8AA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766095C71BF4748A00A8AA3F /* LaunchScreen.storyboard */; };
 		766095D41BF4748B00A8AA3F /* UIWebviewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766095D31BF4748B00A8AA3F /* UIWebviewExampleTests.swift */; };
 		766095DF1BF4748B00A8AA3F /* UIWebviewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766095DE1BF4748B00A8AA3F /* UIWebviewExampleUITests.swift */; };
+		766095ED1BF4798F00A8AA3F /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = 766095EC1BF4798F00A8AA3F /* home.html */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		766095DA1BF4748B00A8AA3F /* UIWebviewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebviewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		766095DE1BF4748B00A8AA3F /* UIWebviewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWebviewExampleUITests.swift; sourceTree = "<group>"; };
 		766095E01BF4748B00A8AA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		766095EC1BF4798F00A8AA3F /* home.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = home.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				766095BE1BF4748A00A8AA3F /* AppDelegate.swift */,
 				766095C01BF4748A00A8AA3F /* ViewController.swift */,
+				766095EC1BF4798F00A8AA3F /* home.html */,
 				766095C21BF4748A00A8AA3F /* Main.storyboard */,
 				766095C51BF4748A00A8AA3F /* Assets.xcassets */,
 				766095C71BF4748A00A8AA3F /* LaunchScreen.storyboard */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				766095C91BF4748A00A8AA3F /* LaunchScreen.storyboard in Resources */,
+				766095ED1BF4798F00A8AA3F /* home.html in Resources */,
 				766095C61BF4748A00A8AA3F /* Assets.xcassets in Resources */,
 				766095C41BF4748A00A8AA3F /* Main.storyboard in Resources */,
 			);
